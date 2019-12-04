@@ -1,0 +1,3 @@
+com\rkb\websockets\controllers\WebSocketController.class
+com\rkb\websockets\configuration\WebSocketConfiguration.class
+com\rkb\websockets\Application.class

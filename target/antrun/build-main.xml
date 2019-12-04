@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>ANT TASK - copying files....</echo>
+  <copy flatten="false" todir="C:\Users\Acer\Desktop\Study\Java-Workspace\SpringBoot-WebSocket/distribution" overwrite="true">
+    <fileset dir="C:\Users\Acer\Desktop\Study\Java-Workspace\SpringBoot-WebSocket/angular-websocket/dist">
+      <include name="**"/>
+    </fileset>
+  </copy>
+  <copy flatten="true" todir="C:\Users\Acer\Desktop\Study\Java-Workspace\SpringBoot-WebSocket/distribution" overwrite="true">
+    <fileset includes="*.jar" dir="C:\Users\Acer\Desktop\Study\Java-Workspace\SpringBoot-WebSocket/target"/>
+  </copy>
+</target>
+</project>
